@@ -1,0 +1,31 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "购物网"
+		}
+	},{
+		"path":"pages/me/me",
+		"style":{
+			"navigationBarTitleText":"我的"
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar":{
+		"color":"#ccc",
+		"selectedColor":"skyblue",
+		"backgroundColor":"#fff",
+		"list":[{
+			"pagePath":"pages/index/index",
+			"text":"首页"
+		},{
+			"pagePath":"pages/me/me",
+			"text":"我的"
+		}]
+	}
+}
